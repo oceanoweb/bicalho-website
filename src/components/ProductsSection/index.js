@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Product from "../Product"
+import Title from "../Title"
 
 import * as S from "./styled"
 
@@ -33,7 +34,7 @@ const ProductsSection = ({ title }) => {
 
   return (
     <S.ProductsSectionWrapper>
-      <S.ProductsSectionTitle>{title}</S.ProductsSectionTitle>
+      <Title title={title} />
       <S.ProductsWrapper>
         {products.map((product, index) => (
           <Product key={index} product={product} />

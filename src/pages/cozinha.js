@@ -1,12 +1,13 @@
 import React from "react"
 
 import Layout from "../components/Layout"
+import ProductsList from "../components/ProductsList"
 import SEO from "../components/seo"
 
 const Cozinha = () => (
   <Layout>
     <SEO title="Cozinha" />
-    <h1>Cozinha</h1>
+    <ProductsList title="Cozinha" />
   </Layout>
 )
 

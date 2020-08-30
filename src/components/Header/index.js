@@ -7,7 +7,10 @@ const Header = () => (
   <S.HeaderWrapped>
     <div>Bicalho</div>
     <Menu />
-    <S.ContaactUSWrapped href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!">
+    <S.ContaactUSWrapped
+      href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!"
+      target="_blank"
+    >
       <S.WhatsappIcon />
       <S.ContaactUSTextWrapped>
         <S.ContaactUSText>FALE</S.ContaactUSText>

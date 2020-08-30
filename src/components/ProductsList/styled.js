@@ -1,13 +1,15 @@
 import styled from "styled-components"
 
-export const ProductsSectionWrapper = styled.section`
+export const ProductsListWrapper = styled.section`
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1rem;
+  margin: 2rem 0;
 `
 
 export const ProductsWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 `

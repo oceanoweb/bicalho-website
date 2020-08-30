@@ -17,7 +17,10 @@ const Product = ({ product }) => {
       <S.ProductImage href="https://picsum.photos/130/100"></S.ProductImage>
       <S.ProductTitle>{title}</S.ProductTitle>
       <S.ProductPrice>{price}</S.ProductPrice>
-      <S.ProductButton>
+      <S.ProductButton
+        href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!"
+        target="_blank"
+      >
         <S.WhatsappIcon />
         <S.ProductButtonLabel>COMPRAR</S.ProductButtonLabel>
       </S.ProductButton>
