@@ -64,6 +64,9 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
+  .slick-slider {
+    margin-bottom: 2rem;
+  }
   .slick-prev,
   .slick-prev {
     z-index: 10;

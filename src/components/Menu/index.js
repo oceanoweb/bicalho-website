@@ -17,7 +17,7 @@ const menuLinks = [
   },
   {
     label: "Quarto",
-    url: "/Quarto/",
+    url: "/quarto/",
   },
   {
     label: "Copa",

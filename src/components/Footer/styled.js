@@ -8,6 +8,7 @@ export const FooterWrapped = styled.footer`
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
+  background: #f2f2f2;
 `
 
 export const FooterPhoneWrapped = styled.div`
