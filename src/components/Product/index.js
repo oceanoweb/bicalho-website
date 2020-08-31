@@ -9,11 +9,11 @@ const Product = ({ product }) => {
   return (
     <S.ProductWrapper>
       {discount && <S.ProductDiscount>{`${discount} OFF`}</S.ProductDiscount>}
-      <S.ProductImage href="https://picsum.photos/130/100"></S.ProductImage>
+      <S.ProductImage href={image} />
       <S.ProductTitle>{title}</S.ProductTitle>
       <S.ProductPrice>{price}</S.ProductPrice>
       <S.ProductButton
-        href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!"
+        href={`https://wa.me/5511000000000?text=Olá, gostei do produto ${title}`}
         target="_blank"
       >
         <S.WhatsappIcon />
