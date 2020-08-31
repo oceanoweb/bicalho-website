@@ -6,43 +6,16 @@ import Title from "../Title"
 
 import * as S from "./styled"
 
-const ProductsSection = ({ title }) => {
-  const products = [
-    {
-      title: "Loren Ipsun",
-      price: "R$ 99,90",
-      image: "htttp://teste.com.br",
-      discount: "10%",
-    },
-    {
-      title: "Loren Ipsun",
-      price: "R$ 99,90",
-      image: "htttp://teste.com.br",
-    },
-    {
-      title: "Loren Ipsun",
-      price: "R$ 99,90",
-      image: "htttp://teste.com.br",
-      discount: "10%",
-    },
-    {
-      title: "Loren Ipsun",
-      price: "R$ 99,90",
-      image: "htttp://teste.com.br",
-    },
-  ]
-
-  return (
-    <S.ProductsSectionWrapper>
-      <Title title={title} />
-      <S.ProductsWrapper>
-        {products.map((product, index) => (
-          <Product key={index} product={product} />
-        ))}
-      </S.ProductsWrapper>
-    </S.ProductsSectionWrapper>
-  )
-}
+const ProductsSection = ({ title, products }) => (
+  <S.ProductsSectionWrapper>
+    <Title title={title} />
+    <S.ProductsWrapper>
+      {products.map((product, index) => (
+        <Product key={index} product={product.node.frontmatter} />
+      ))}
+    </S.ProductsWrapper>
+  </S.ProductsSectionWrapper>
+)
 
 ProductsSection.propTypes = {
   title: PropTypes.string.isRequired,

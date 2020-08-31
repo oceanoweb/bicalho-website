@@ -8,12 +8,7 @@ const Product = ({ product }) => {
 
   return (
     <S.ProductWrapper>
-      {discount && (
-        <>
-          <S.ProductDiscount>{`${discount} OFF`}</S.ProductDiscount>
-          {/* <S.ProductDiscountTriangle /> */}
-        </>
-      )}
+      {discount && <S.ProductDiscount>{`${discount} OFF`}</S.ProductDiscount>}
       <S.ProductImage href="https://picsum.photos/130/100"></S.ProductImage>
       <S.ProductTitle>{title}</S.ProductTitle>
       <S.ProductPrice>{price}</S.ProductPrice>

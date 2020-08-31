@@ -1,0 +1,12 @@
+---
+date: 2020-01-01 00:00:00
+title: Teste 1
+price: R$ 99,90
+description: Estou testando 1
+image: htttp://teste.com.br
+category:
+  - ofertas
+subcategory:
+  - poltronas
+discount: 10%
+---
