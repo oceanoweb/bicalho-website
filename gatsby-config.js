@@ -3,6 +3,7 @@ module.exports = {
     title: `Mobiliadora Bicalho`,
     description: `Mobiliadora Bicalho loja online`,
     author: `Marquinhus Gonçalves - Oceano Web`,
+    siteUrl: `https://mobiliadorabicalho.com.br`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -56,8 +57,8 @@ module.exports = {
         name: `mobiliadora-bicalho`,
         short_name: `bicalho`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#790d19`,
+        theme_color: `#790d19`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

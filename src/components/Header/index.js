@@ -1,11 +1,13 @@
 import React from "react"
+
 import Menu from "../Menu"
+import Logo from "../Logo"
 
 import * as S from "./styled"
 
 const Header = () => (
   <S.HeaderWrapped>
-    <div>Bicalho</div>
+    <Logo />
     <Menu />
     <S.ContaactUSWrapped
       href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!"

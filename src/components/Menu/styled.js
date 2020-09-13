@@ -6,9 +6,9 @@ export const MenuWrapped = styled.nav`
 `
 
 export const MenuLinks = styled(Link)`
-  padding: 0.5rem 2rem;
+  padding: 1.5rem 2rem;
   cursor: pointer;
-  color: #932330;
+  color: #790d19;
   transition: 0.5s ease;
 
   &:hover {
@@ -16,6 +16,6 @@ export const MenuLinks = styled(Link)`
   }
 
   &.active {
-    border-bottom: 3px solid #932330;
+    border-bottom: 3px solid #790d19;
   }
 `

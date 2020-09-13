@@ -5,8 +5,8 @@ export const HeaderWrapped = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 10px solid #932330;
-  border-bottom: 10px solid #932330;
+  border-top: 10px solid #790d19;
+  border-bottom: 10px solid #790d19;
   padding: 0.5rem;
 `
 
@@ -16,7 +16,7 @@ export const ContaactUSWrapped = styled.a`
 
 export const WhatsappIcon = styled(Whatsapp)`
   width: 2rem;
-  color: #932330;
+  color: #790d19;
 `
 
 export const ContaactUSTextWrapped = styled.div`
