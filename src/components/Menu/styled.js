@@ -6,7 +6,7 @@ export const MenuWrapped = styled.nav`
 `
 
 export const MenuLinks = styled(Link)`
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.3rem;
   cursor: pointer;
   color: #790d19;
   transition: 0.5s ease;

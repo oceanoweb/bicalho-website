@@ -25,7 +25,8 @@
     "react-slick": "^0.27.10",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.1.1",
-    "styled-icons": "^10.18.0"
+    "styled-icons": "^10.18.0",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "prettier": "2.1.0"
