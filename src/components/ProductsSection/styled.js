@@ -10,4 +10,6 @@ export const ProductsSectionWrapper = styled.section`
 
 export const ProductsWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 `

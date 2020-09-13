@@ -6,11 +6,11 @@ export const ProductWrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 170px;
-  height: 220px;
+  width: 220px;
+  height: 300px;
   box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
   margin: 20px;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 5px;
   position: relative;
 `
@@ -23,34 +23,37 @@ export const ProductDiscount = styled.div`
   display: flex;
   justify-content: center;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   transform: rotateZ(-10deg);
+  padding-left: 16px;
+
   &:after {
     content: "";
     border-top: 8px solid transparent;
     border-left: 15px solid #bd2130;
     border-bottom: 8px solid transparent;
     position: relative;
-    left: 23px;
+    left: 15px;
   }
 `
 export const ProductImage = styled.img`
-  width: 130px;
-  height: 100px;
+  margin: 5px 0;
 `
 
 export const ProductTitle = styled.h2`
   width: 100%;
+  margin-bottom: 0.3rem;
 `
 
 export const ProductPrice = styled.p`
   width: 100%;
+  margin-bottom: 0.3rem;
 `
 
 export const ProductButton = styled.a`
   background: #25d366;
   border-radius: 3px;
-  padding: 2px 15px;
+  padding: 0.5rem 1rem;
   display: flex;
 `
 
