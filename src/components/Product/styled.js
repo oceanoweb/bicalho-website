@@ -51,6 +51,8 @@ export const ProductPrice = styled.p`
   margin-bottom: 0.3rem;
 `
 
+export const HackNestedLink = styled.object``
+
 export const ProductButton = styled.a`
   background: #25d366;
   border-radius: 3px;

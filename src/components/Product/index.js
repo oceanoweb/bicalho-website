@@ -13,13 +13,15 @@ const Product = ({ product }) => {
       <S.ProductImage src={image} />
       <S.ProductTitle>{title}</S.ProductTitle>
       <S.ProductPrice>{price}</S.ProductPrice>
-      <S.ProductButton
-        href={`https://wa.me/5511000000000?text=Olá, gostei do produto ${title}`}
-        target="_blank"
-      >
-        <S.WhatsappIcon />
-        <S.ProductButtonLabel>Comprar</S.ProductButtonLabel>
-      </S.ProductButton>
+      <S.HackNestedLink>
+        <S.ProductButton
+          href={`https://wa.me/5511000000000?text=Olá, gostei do produto ${title}`}
+          target="_blank"
+        >
+          <S.WhatsappIcon />
+          <S.ProductButtonLabel>Comprar</S.ProductButtonLabel>
+        </S.ProductButton>
+      </S.HackNestedLink>
     </S.ProductWrapper>
   )
 }
