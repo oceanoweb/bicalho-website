@@ -35,6 +35,9 @@ export const query = graphql`
             subcategory
             discount
           }
+          fields {
+            slug
+          }
         }
       }
     }

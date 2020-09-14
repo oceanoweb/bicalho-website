@@ -28,13 +28,13 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <Slider />
       <ProductsSection
-        title="OFERTAS ESPECIAIS"
+        title="Ofertas especiais"
         products={productsOfertasList}
       />
-      <ProductsSection title="SALA" products={productsSalaList} />
-      <ProductsSection title="COZINHA" products={productsCozinhaList} />
-      <ProductsSection title="QUARTO" products={productsQuartoList} />
-      <ProductsSection title="COPA" products={productsCopaList} />
+      <ProductsSection title="Sala" products={productsSalaList} />
+      <ProductsSection title="Cozinha" products={productsCozinhaList} />
+      <ProductsSection title="Quarto" products={productsQuartoList} />
+      <ProductsSection title="Copa" products={productsCopaList} />
     </Layout>
   )
 }
@@ -52,6 +52,9 @@ export const query = graphql`
             category
             subcategory
             discount
+          }
+          fields {
+            slug
           }
         }
       }

@@ -4,10 +4,11 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 
 const Product = ({ product }) => {
-  const { title, price, image, discount } = product
+  const { frontmatter, fields } = product
+  const { title, price, image, discount } = frontmatter
 
   return (
-    <S.ProductWrapper>
+    <S.ProductWrapper to={fields.slug}>
       {discount && <S.ProductDiscount>{`${discount} OFF`}</S.ProductDiscount>}
       <S.ProductImage src={image} />
       <S.ProductTitle>{title}</S.ProductTitle>
@@ -17,7 +18,7 @@ const Product = ({ product }) => {
         target="_blank"
       >
         <S.WhatsappIcon />
-        <S.ProductButtonLabel>COMPRAR</S.ProductButtonLabel>
+        <S.ProductButtonLabel>Comprar</S.ProductButtonLabel>
       </S.ProductButton>
     </S.ProductWrapper>
   )
@@ -31,10 +32,15 @@ Product.defaultProps = {
 
 Product.propTypes = {
   product: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    price: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    discount: PropTypes.string,
+    frontmatter: PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      price: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+      discount: PropTypes.string,
+    }),
+    fields: PropTypes.shape({
+      slug: PropTypes.string.isRequired,
+    }),
   }),
 }
 

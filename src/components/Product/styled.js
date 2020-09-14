@@ -1,7 +1,8 @@
+import { Link } from "gatsby"
 import styled from "styled-components"
 import { Whatsapp } from "@styled-icons/icomoon/Whatsapp"
 
-export const ProductWrapper = styled.div`
+export const ProductWrapper = styled(Link)`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,4 +66,5 @@ export const WhatsappIcon = styled(Whatsapp)`
 
 export const ProductButtonLabel = styled.p`
   color: white;
+  text-transform: uppercase;
 `

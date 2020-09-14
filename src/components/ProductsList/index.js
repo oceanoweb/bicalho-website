@@ -11,7 +11,7 @@ const ProductsList = ({ title, products }) => (
     <Title title={title} />
     <S.ProductsWrapper>
       {products.map((product, index) => (
-        <Product key={index} product={product.node.frontmatter} />
+        <Product key={index} product={product.node} />
       ))}
     </S.ProductsWrapper>
   </S.ProductsListWrapper>

@@ -11,7 +11,7 @@ const ProductsSection = ({ title, products }) => (
     <Title title={title} />
     <S.ProductsWrapper>
       {products.map((product, index) => (
-        <Product key={index} product={product.node.frontmatter} />
+        <Product key={index} product={product.node} />
       ))}
     </S.ProductsWrapper>
   </S.ProductsSectionWrapper>
@@ -19,6 +19,7 @@ const ProductsSection = ({ title, products }) => (
 
 ProductsSection.propTypes = {
   title: PropTypes.string.isRequired,
+  products: PropTypes.arrayOf(PropTypes.object),
 }
 
 export default ProductsSection
