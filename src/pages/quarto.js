@@ -1,18 +1,21 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import SEO from "../components/seo"
 import Layout from "../components/Layout"
 import ProductsList from "../components/ProductsList"
-import SEO from "../components/seo"
+import CapaCategory from "../components/CapaCategory"
 
 const Quarto = ({ data }) => {
   const productsList = data.allMarkdownRemark.edges.filter(product =>
     product.node.frontmatter.category.includes("quarto")
   )
+  const image = data.file.childImageSharp
 
   return (
     <Layout>
       <SEO title="Quarto" />
+      <CapaCategory image={image} alt="Capa da categoria quarto" />
       <ProductsList title="Quarto" products={productsList} />
     </Layout>
   )
@@ -32,6 +35,13 @@ export const query = graphql`
             subcategory
             discount
           }
+        }
+      }
+    }
+    file(relativePath: { eq: "capa-category/quarto.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
