@@ -9,7 +9,7 @@ const Header = () => (
   <S.HeaderWrapped>
     <Logo />
     <Menu />
-    <S.ContaactUSWrapped
+    <S.ContactUSWrapped
       href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!"
       target="_blank"
     >
@@ -18,7 +18,7 @@ const Header = () => (
         <S.ContaactUSText>FALE</S.ContaactUSText>
         <S.ContaactUSText>CONOSCO!</S.ContaactUSText>
       </S.ContaactUSTextWrapped>
-    </S.ContaactUSWrapped>
+    </S.ContactUSWrapped>
   </S.HeaderWrapped>
 )
 

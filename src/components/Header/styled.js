@@ -10,8 +10,9 @@ export const HeaderWrapped = styled.header`
   padding: 0.5rem;
 `
 
-export const ContaactUSWrapped = styled.a`
+export const ContactUSWrapped = styled.a`
   display: flex;
+  align-items: center;
 `
 
 export const WhatsappIcon = styled(Whatsapp)`

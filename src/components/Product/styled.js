@@ -54,10 +54,11 @@ export const ProductPrice = styled.p`
 export const HackNestedLink = styled.object``
 
 export const ProductButton = styled.a`
+  display: flex;
+  align-items: center;
   background: #25d366;
   border-radius: 3px;
   padding: 0.5rem 1rem;
-  display: flex;
 `
 
 export const WhatsappIcon = styled(Whatsapp)`
