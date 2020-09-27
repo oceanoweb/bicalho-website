@@ -101,6 +101,8 @@ export const FooterAddress = styled.p`
   margin-bottom: 5px;
 `
 
+export const SocialMediaLink = styled.a``
+
 export const FacebookIcon = styled(FacebookSquare)`
   width: 2rem;
 `

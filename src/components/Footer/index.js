@@ -33,8 +33,18 @@ const Footer = () => (
         <S.FooterSocialMediaWrapped>
           <S.FooterTitle>Redes Sociais:</S.FooterTitle>
           <S.FooterSocialMediaIconsWrapped>
-            <S.FacebookIcon />
-            <S.InstagramIcon />
+            <S.SocialMediaLink
+              href="https://www.facebook.com/mobiliadorabicalhooficial"
+              target="_blank"
+            >
+              <S.FacebookIcon />
+            </S.SocialMediaLink>
+            <S.SocialMediaLink
+              href="https://www.instagram.com/mobiliadorabicalho/"
+              target="_blank"
+            >
+              <S.InstagramIcon />
+            </S.SocialMediaLink>
             <S.WhatsappIcon />
           </S.FooterSocialMediaIconsWrapped>
         </S.FooterSocialMediaWrapped>
