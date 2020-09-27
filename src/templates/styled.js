@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Whatsapp } from "@styled-icons/icomoon/Whatsapp"
 
-export const ProductWrapper = styled.div`
+export const ProductSectionWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -15,6 +15,13 @@ export const ProductCapa = styled.div`
   width: 100%;
   height: 120px;
   margin-bottom: 1.5rem;
+`
+
+export const ProductWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
 `
 
 export const ProductDetailsWrapper = styled.div`
@@ -93,6 +100,6 @@ export const ProductButtonLabel = styled.p`
 `
 
 export const ProducImaageWrapper = styled.div`
-  width: 50%;
+  width: 45%;
 `
 export const ProductImage = styled.img``
