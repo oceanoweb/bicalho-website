@@ -2,7 +2,11 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { Whatsapp } from "@styled-icons/icomoon/Whatsapp"
 
-export const ProductWrapper = styled(Link)`
+export const ProductWrapper = styled.div`
+  position: relative;
+`
+
+export const Product = styled(Link)`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,7 +52,7 @@ export const ProductTitle = styled.h2`
 
 export const ProductPrice = styled.p`
   width: 100%;
-  margin-bottom: 0.3rem;
+  margin-bottom: 2rem;
 `
 
 export const HackNestedLink = styled.object``
@@ -56,9 +60,14 @@ export const HackNestedLink = styled.object``
 export const ProductButton = styled.a`
   display: flex;
   align-items: center;
+  justify-content: center;
   background: #25d366;
   border-radius: 3px;
   padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+  right: 35px;
 `
 
 export const WhatsappIcon = styled(Whatsapp)`

@@ -8,20 +8,20 @@ const Product = ({ product }) => {
   const { title, price, image, discount } = frontmatter
 
   return (
-    <S.ProductWrapper to={fields.slug}>
-      {discount && <S.ProductDiscount>{`${discount} OFF`}</S.ProductDiscount>}
-      <S.ProductImage src={image} />
-      <S.ProductTitle>{title}</S.ProductTitle>
-      <S.ProductPrice>{price}</S.ProductPrice>
-      <S.HackNestedLink>
-        <S.ProductButton
-          href={`https://wa.me/5511000000000?text=Olá, gostei do produto ${title}`}
-          target="_blank"
-        >
-          <S.WhatsappIcon />
-          <S.ProductButtonLabel>Comprar</S.ProductButtonLabel>
-        </S.ProductButton>
-      </S.HackNestedLink>
+    <S.ProductWrapper>
+      <S.Product to={fields.slug}>
+        {discount && <S.ProductDiscount>{`${discount} OFF`}</S.ProductDiscount>}
+        <S.ProductImage src={image} />
+        <S.ProductTitle>{title}</S.ProductTitle>
+        <S.ProductPrice>{price}</S.ProductPrice>
+      </S.Product>
+      <S.ProductButton
+        href={`https://wa.me/5511000000000?text=Olá, gostei do produto ${title}`}
+        target="_blank"
+      >
+        <S.WhatsappIcon />
+        <S.ProductButtonLabel>Comprar</S.ProductButtonLabel>
+      </S.ProductButton>
     </S.ProductWrapper>
   )
 }
