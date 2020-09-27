@@ -6,6 +6,8 @@ module.exports = {
     siteUrl: `https://mobiliadorabicalho.com.br`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
@@ -56,8 +58,6 @@ module.exports = {
         display: "swap",
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
