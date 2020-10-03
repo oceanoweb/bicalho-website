@@ -8,7 +8,6 @@ import * as S from "./styled"
 
 const Product = ({ data }) => {
   const { title, price, image } = data.markdownRemark.frontmatter
-  console.log(data)
   const productsOfertasList = data.allMarkdownRemark.edges.filter(product =>
     product.node.frontmatter.category.includes("ofertas")
   )
