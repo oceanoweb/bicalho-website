@@ -15,8 +15,6 @@ const fadeIn = keyframes`
 `
 
 export const MenuWrapped = styled.nav`
-  order: 2;
-
   ${media.lessThan("medium")`
     display: ${props => (props.isMenuOpen ? "flex" : "none")};
   
@@ -29,7 +27,7 @@ export const MenuWrapped = styled.nav`
       width: 100%;
       height: 100%;
       background-color: rgba(0,0,0,0.9);
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
     }
@@ -54,6 +52,7 @@ export const MenuLinks = styled(Link)`
     transition-duration: 0.5s;
     color: #fff;
     font-size: 40px;
+    font-weight: 700;
     display: block;
     text-align: center;
     text-transform: uppercase;
@@ -64,7 +63,6 @@ export const MenuLinks = styled(Link)`
     
     &.active {
       color: #790d19;
-      border-bottom: 1px solid #790d19;
     }
   `}
 `
@@ -76,7 +74,6 @@ export const MenuIcon = styled(Menu)`
     display: block;
     width: 2.5rem;
     color: #000;
-    order: 3;
     cursor: pointer;
     `}
 `

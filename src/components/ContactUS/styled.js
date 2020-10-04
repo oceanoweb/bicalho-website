@@ -3,12 +3,11 @@ import media from "styled-media-query"
 import { Whatsapp } from "@styled-icons/icomoon/Whatsapp"
 
 export const ContactUSWrapped = styled.a`
-  display: flex;
+  display: ${props => (props.show ? "flex" : "none")};
   align-items: center;
-  order: 3;
 
   ${media.lessThan("medium")`
-  order: 2;
+    display: ${props => (props.isMenuOpen ? "flex" : "none")};
   `}
 `
 
@@ -26,6 +25,6 @@ export const ContaactUSText = styled.p`
   font-weight: 900;
   line-height: 17px;
   font-size: 18px;
-  color: #000;
+  color: ${props => (props.isMenuOpen ? "#fff" : "#000")};
   text-transform: uppercase;
 `

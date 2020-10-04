@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import ContactUS from "../ContactUS"
+
 import * as S from "./styled"
 
 const menuLinks = [
@@ -45,9 +47,7 @@ const Menu = () => {
             </S.MenuLinks>
           )
         })}
-        {/* <S.CloseIconWrapped onClick={openMenu}>
-          <S.CloseOutlineIcon />
-        </S.CloseIconWrapped> */}
+        <ContactUS show={false} isMenuOpen={isMenuOpen} />
         <S.CloseOutlineIcon onClick={openMenu} />
       </S.MenuWrapped>
       <S.MenuIcon onClick={openMenu} />

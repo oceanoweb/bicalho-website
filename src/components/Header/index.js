@@ -10,7 +10,7 @@ const Header = () => (
   <S.HeaderWrapped>
     <Logo />
     <Menu />
-    <ContactUS />
+    <ContactUS show={true} />
   </S.HeaderWrapped>
 )
 
