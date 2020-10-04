@@ -15,8 +15,8 @@ const Header = () => (
     >
       <S.WhatsappIcon />
       <S.ContaactUSTextWrapped>
-        <S.ContaactUSText>FALE</S.ContaactUSText>
-        <S.ContaactUSText>CONOSCO!</S.ContaactUSText>
+        <S.ContaactUSText>Fale</S.ContaactUSText>
+        <S.ContaactUSText>Conosco!</S.ContaactUSText>
       </S.ContaactUSTextWrapped>
     </S.ContactUSWrapped>
   </S.HeaderWrapped>

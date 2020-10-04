@@ -68,8 +68,6 @@ export const FooterSocialMediaWrapped = styled.div`
 export const FooterSocialMediaIconsWrapped = styled.div``
 
 export const FooterPayWithWrapped = styled.div`
-  margin-bottom: 1rem;
-
   ${media.lessThan("medium")`
     width: 50%;
   `}
