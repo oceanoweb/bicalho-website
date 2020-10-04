@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
 import Title from "../components/Title"
+import Empty from "../components/Empty"
 import Layout from "../components/Layout"
 import ProductsList from "../components/ProductsList"
 import CapaCategory from "../components/CapaCategory"
@@ -21,7 +22,7 @@ const Sala = ({ data }) => {
       {productsList.length > 0 ? (
         <ProductsList products={productsList} />
       ) : (
-        <p>Nenhum produto nessa lista</p>
+        <Empty text="Nenhum produto nessa lista :(" />
       )}
     </Layout>
   )
