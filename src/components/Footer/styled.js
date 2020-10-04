@@ -1,10 +1,10 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import Img from "gatsby-image"
 
 import { FacebookSquare } from "@styled-icons/boxicons-logos/FacebookSquare"
 import { Instagram } from "@styled-icons/boxicons-logos/Instagram"
 import { Whatsapp } from "@styled-icons/remix-fill/Whatsapp"
-import { Americanexpress } from "@styled-icons/simple-icons/Americanexpress"
 
 export const FooterWrapped = styled.footer`
   background: #f2f2f2;
@@ -115,7 +115,6 @@ export const WhatsappIcon = styled(Whatsapp)`
   width: 2rem;
 `
 
-export const AmericanexpressIcon = styled(Americanexpress)`
-  width: 2rem;
+export const PaymentImg = styled(Img)`
   margin-right: 5px;
 `
