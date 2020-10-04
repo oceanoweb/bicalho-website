@@ -69,7 +69,6 @@ const Footer = () => {
     `
   )
 
-  console.log(data)
   return (
     <S.FooterWrapped>
       <S.FooterContent>

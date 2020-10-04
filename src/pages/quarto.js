@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
+import Title from "../components/Title"
 import Layout from "../components/Layout"
 import ProductsList from "../components/ProductsList"
 import CapaCategory from "../components/CapaCategory"
@@ -16,7 +17,12 @@ const Quarto = ({ data }) => {
     <Layout>
       <SEO title="Quarto" />
       <CapaCategory image={image} alt="Capa da categoria quarto" />
-      <ProductsList title="Quarto" products={productsList} />
+      <Title title="Quarto" />
+      {productsList.length > 0 ? (
+        <ProductsList products={productsList} />
+      ) : (
+        <p>Nenhum produto nessa lista</p>
+      )}
     </Layout>
   )
 }

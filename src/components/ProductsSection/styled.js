@@ -5,7 +5,6 @@ export const ProductsSectionWrapper = styled.section`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1rem;
 `
 
 export const ProductsWrapper = styled.div`

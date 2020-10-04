@@ -27,14 +27,24 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Slider />
-      <ProductsSection
-        title="Ofertas especiais"
-        products={productsOfertasList}
-      />
-      <ProductsSection title="Sala" products={productsSalaList} />
-      <ProductsSection title="Cozinha" products={productsCozinhaList} />
-      <ProductsSection title="Quarto" products={productsQuartoList} />
-      <ProductsSection title="Copa" products={productsCopaList} />
+      {productsOfertasList.length > 0 && (
+        <ProductsSection
+          title="Ofertas especiais"
+          products={productsOfertasList}
+        />
+      )}
+      {productsSalaList.length > 0 && (
+        <ProductsSection title="Sala" products={productsSalaList} />
+      )}
+      {productsCozinhaList.length > 0 && (
+        <ProductsSection title="Cozinha" products={productsCozinhaList} />
+      )}
+      {productsQuartoList.length > 0 && (
+        <ProductsSection title="Quarto" products={productsQuartoList} />
+      )}
+      {productsCopaList.length > 0 && (
+        <ProductsSection title="Copa" products={productsCopaList} />
+      )}
     </Layout>
   )
 }
