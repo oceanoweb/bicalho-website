@@ -7,7 +7,13 @@ import ProductsSection from "../components/ProductsSection"
 import * as S from "./styled"
 
 const Product = ({ data }) => {
-  const { title, price, image } = data.markdownRemark.frontmatter
+  const {
+    title,
+    price,
+    installments,
+    installmentsPrice,
+    image,
+  } = data.markdownRemark.frontmatter
   const productsOfertasList = data.allMarkdownRemark.edges.filter(product =>
     product.node.frontmatter.category.includes("ofertas")
   )
@@ -20,16 +26,18 @@ const Product = ({ data }) => {
           <S.ProductDetailsWrapper>
             <S.ProductDetails>
               <S.ProductTitle>{title}</S.ProductTitle>
-              <S.ProductCode>Código XXXXXXXX</S.ProductCode>
-              <S.ProductLabel>Tamanhos disponíveis: </S.ProductLabel>
-              <S.ProductSizeWrapper>
+              {/* <S.ProductCode>Código XXXXXXXX</S.ProductCode> */}
+              {/* <S.ProductLabel>Tamanhos disponíveis: </S.ProductLabel> */}
+              {/* <S.ProductSizeWrapper>
                 <S.ProductSize>2,30</S.ProductSize>
                 <S.ProductSize>2,50</S.ProductSize>
                 <S.ProductSize>2,70</S.ProductSize>
-              </S.ProductSizeWrapper>
+              </S.ProductSizeWrapper> */}
               <S.ProductLabel>A partir de</S.ProductLabel>
               <S.ProductPrice>{price}</S.ProductPrice>
-              <S.ProductPart>Até 00x de 0000,00 sem juros</S.ProductPart>
+              <S.ProductPart>
+                {`Até ${installments}x de ${installmentsPrice}`}
+              </S.ProductPart>
             </S.ProductDetails>
             <S.ProductButton
               href={`https://wa.me/5511000000000?text=Olá, gostei do produto ${title}`}
@@ -56,6 +64,8 @@ export const query = graphql`
       frontmatter {
         title
         price
+        installments
+        installmentsPrice
         image
         discount
       }
