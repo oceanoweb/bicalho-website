@@ -8,11 +8,11 @@ export const ProductWrapper = styled.div`
 
 export const Product = styled(Link)`
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  /* justify-content: space-around; */
+  /* align-items: center; */
   flex-direction: column;
   width: 220px;
-  height: 300px;
+  height: 320px;
   box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
   margin: 20px;
   padding: 1rem;
@@ -48,6 +48,7 @@ export const ProductImage = styled.img`
 export const ProductTitle = styled.h2`
   width: 100%;
   margin-bottom: 0.3rem;
+  line-height: 1.2rem;
 `
 
 export const ProductPrice = styled.p`
