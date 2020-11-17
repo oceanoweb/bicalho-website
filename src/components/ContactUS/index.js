@@ -5,7 +5,7 @@ import * as S from "./styled"
 const ContactUS = ({ show, isMenuOpen }) => {
   return (
     <S.ContactUSWrapped
-      href="https://wa.me/5511000000000?text=Olá,%20meu%20amigo!"
+      href="https://wa.me/553186846705?text=Olá,%20sou%20cliente%20do%20site"
       target="_blank"
       show={show}
       isMenuOpen={isMenuOpen}

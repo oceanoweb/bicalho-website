@@ -114,7 +114,12 @@ const Footer = () => {
               >
                 <S.InstagramIcon />
               </S.SocialMediaLink>
-              <S.WhatsappIcon />
+              <S.SocialMediaLink
+                href="https://wa.me/553186846705?text=Olá,%20sou%20cliente%20do%20site"
+                target="_blank"
+              >
+                <S.WhatsappIcon />
+              </S.SocialMediaLink>
             </S.FooterSocialMediaIconsWrapped>
           </S.FooterSocialMediaWrapped>
           <S.FooterPayWithWrapped>
