@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Img from "gatsby-image"
 import { Whatsapp } from "@styled-icons/icomoon/Whatsapp"
 
 export const ProductSectionWrapper = styled.div`
@@ -10,10 +11,8 @@ export const ProductSectionWrapper = styled.div`
   margin-bottom: 1rem;
 `
 
-export const ProductCapa = styled.div`
-  background: #f2f2f2;
+export const ProductCapa = styled(Img)`
   width: 100%;
-  height: 120px;
   margin-bottom: 1.5rem;
 `
 

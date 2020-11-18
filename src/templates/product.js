@@ -22,12 +22,19 @@ const Product = ({ data }) => {
   return (
     <Layout>
       <S.ProductSectionWrapper>
-        <S.ProductCapa />
+        <S.ProductCapa
+          fluid={data.bannerOffer.childImageSharp.fluid}
+          alt="Banner ofertas"
+        />
         <S.ProductWrapper>
           <S.ProductDetailsWrapper>
             <S.ProductDetails>
               <S.ProductTitle>{title}</S.ProductTitle>
-              {description.map(descrip => <S.ProductDescription>{descrip}</S.ProductDescription>)}
+              {description.map((descrip, index) => (
+                <S.ProductDescription key={index}>
+                  {descrip}
+                </S.ProductDescription>
+              ))}
               <S.ProductLabel>A partir de</S.ProductLabel>
               <S.ProductPrice>{price}</S.ProductPrice>
               <S.ProductPart>
@@ -81,6 +88,13 @@ export const query = graphql`
           fields {
             slug
           }
+        }
+      }
+    }
+    bannerOffer: file(relativePath: { eq: "banner-offer.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
         }
       }
     }
