@@ -4,7 +4,7 @@ title: Roupeiro Sevilha
 price: R$ 1099,90
 installments: 10
 installmentsPrice: R$ 120,90
-description: Roupeiro Sevilha
+description: ['Altura: 217 cm', 'Largura: 280 cm', 'Profundidade: 46,5cm', 'Materia Prima: MDF / MDP', 'Quantidade de Gavetas: 4 Gavetas', 'Tipo de Corrediças: Telescópicas', 'Quantidade de Portas: 8', 'Pés Com sapata regulável']
 image: ../products-images/ofertas/roupeiro-sevilha.jpg
 category:
   - ofertas

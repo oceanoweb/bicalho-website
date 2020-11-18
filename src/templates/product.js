@@ -10,6 +10,7 @@ const Product = ({ data }) => {
   const {
     title,
     price,
+    description,
     installments,
     installmentsPrice,
     image,
@@ -26,13 +27,7 @@ const Product = ({ data }) => {
           <S.ProductDetailsWrapper>
             <S.ProductDetails>
               <S.ProductTitle>{title}</S.ProductTitle>
-              {/* <S.ProductCode>Código XXXXXXXX</S.ProductCode> */}
-              {/* <S.ProductLabel>Tamanhos disponíveis: </S.ProductLabel> */}
-              {/* <S.ProductSizeWrapper>
-                <S.ProductSize>2,30</S.ProductSize>
-                <S.ProductSize>2,50</S.ProductSize>
-                <S.ProductSize>2,70</S.ProductSize>
-              </S.ProductSizeWrapper> */}
+              {description.map(descrip => <S.ProductDescription>{descrip}</S.ProductDescription>)}
               <S.ProductLabel>A partir de</S.ProductLabel>
               <S.ProductPrice>{price}</S.ProductPrice>
               <S.ProductPart>
@@ -64,6 +59,7 @@ export const query = graphql`
       frontmatter {
         title
         price
+        description
         installments
         installmentsPrice
         image

@@ -39,33 +39,19 @@ export const ProductTitle = styled.h1`
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 900;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
 `
 
-export const ProductCode = styled.p`
+export const ProductDescription = styled.p`
   font-size: 0.9rem;
   color: #7f7f7f;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 `
 
 export const ProductLabel = styled.p`
   font-size: 0.9rem;
   color: #7f7f7f;
   margin-bottom: 0.3rem;
-`
-
-export const ProductSizeWrapper = styled.div`
-  display: flex;
-`
-
-export const ProductSize = styled.p`
-  padding: 0.1rem 0.5rem;
-  background: #790d19;
-  color: #fff;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  margin-right: 0.3rem;
-  margin-bottom: 1rem;
 `
 
 export const ProductPrice = styled.p`
