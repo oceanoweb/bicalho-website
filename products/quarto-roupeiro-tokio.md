@@ -4,7 +4,17 @@ title: Roupeiro Tokio
 price: R$ 1299,90
 installments: 10
 installmentsPrice: R$ 142,90
-description: ['Altura: 217 cm', 'Largura: 280 cm', 'Profundidade: 46,5cm', 'Materia Prima: MDF / MDP', 'Quantidade de Gavetas: 4 Gavetas', 'Tipo de Corrediças: Telescópicas', 'Quantidade de Portas: 8', 'Pés Com sapata regulável']
+description:
+  [
+    "Altura: 189cm",
+    "Largura: 226cm",
+    "Profundidade: 54,5cm",
+    "Corrediça telescópica",
+    "Cabideiro de alumínio",
+    "Tipo de Corrediças: Telescópicas",
+    "4 gavetas internas",
+    "Portas de correr",
+  ]
 image: ../products-images/quarto/roupeiro-tokio-1.jpg
 category:
   - quarto

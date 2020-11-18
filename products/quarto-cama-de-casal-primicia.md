@@ -4,7 +4,20 @@ title: Cama de Casal Primicia
 price: R$ 479,90
 installments: 10
 installmentsPrice: R$ 52,90
-description: ['Altura: 217 cm', 'Largura: 280 cm', 'Profundidade: 46,5cm', 'Materia Prima: MDF / MDP', 'Quantidade de Gavetas: 4 Gavetas', 'Tipo de Corrediças: Telescópicas', 'Quantidade de Portas: 8', 'Pés Com sapata regulável']
+description:
+  [
+    "Altura: 118cm",
+    "Largura: 153cm",
+    "Profundidade: 200cm",
+    "Fabricada em MDF",
+    "Possui 6 travessões com madeira de qualidade",
+    "10 ripas para maior sustentação",
+    "Pés maciços",
+    "Barra da cama com 14 cm de altura e 25 mm de espessura",
+    "Para colchões 1,38 x 1,88 metros",
+    "Acabamento em Verniz Uv(alto brilho) na cor Branco",
+    "Acabamento texturizado na cor Ipê, e Carvalho",
+  ]
 image: ../products-images/quarto/cama-de-casal-primicia.jpg
 category:
   - quarto

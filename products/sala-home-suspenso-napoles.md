@@ -4,7 +4,20 @@ title: Home Suspenso Napoles
 price: R$ 799,90
 installments: 10
 installmentsPrice: R$ 87,90
-description: ['Altura: 217 cm', 'Largura: 280 cm', 'Profundidade: 46,5cm', 'Materia Prima: MDF / MDP', 'Quantidade de Gavetas: 4 Gavetas', 'Tipo de Corrediças: Telescópicas', 'Quantidade de Portas: 8', 'Pés Com sapata regulável']
+description:
+  [
+    "Altura: 184cm",
+    "Largura: 200cm",
+    "Profundidade: 34cm",
+    "Peso: 86kg"
+    "Materia Prima: MDF / MDP",
+    "Tipo de Pintura: UV",
+    "Prazo de Garantia: 3 meses contra defeitos de fabricação",
+    "Possui Iluminação: Não",
+    "Possui Portas: 2",
+    "Ideal para TV até: 65polegadas",
+    "Espaço para TV - (L x A): 169cm x 84cm"
+  ]
 image: ../products-images/sala/home-suspenso-napoles.jpg
 category:
   - sala

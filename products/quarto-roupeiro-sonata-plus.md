@@ -4,7 +4,19 @@ title: Roupeiro Sonata Plus
 price: R$ 1699,90
 installments: 10
 installmentsPrice: R$ 186,90
-description: ['Altura: 217 cm', 'Largura: 280 cm', 'Profundidade: 46,5cm', 'Materia Prima: MDF / MDP', 'Quantidade de Gavetas: 4 Gavetas', 'Tipo de Corrediças: Telescópicas', 'Quantidade de Portas: 8', 'Pés Com sapata regulável']
+description:
+  [
+    "6 portas",
+    "Corrediça telescópica",
+    "Parte interna toda branca",
+    "6 gavetas internas",
+    "Cabideiro de alumínio",
+    "Puxadores de alumínio",
+    "Altura: 240cm",
+    "Largura: 274cm",
+    "Profundidade: 54cm",
+    "Peso: 249kg",
+  ]
 image: ../products-images/quarto/roupeiro-sonata-plus-1.jpg
 category:
   - quarto
