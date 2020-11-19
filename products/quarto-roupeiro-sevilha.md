@@ -5,7 +5,6 @@ price: R$ 1099,90
 installments: 10
 installmentsPrice: R$ 120,90
 description:
-description:
   [
     "Altura: 2.18m",
     "Altura c/ pés: 2.28m",
