@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Cozinha Turquesa
-price: R$ 99,90
+price: R$ 1999,90
 installments: 10
-installmentsPrice: R$ 40,90
+installmentsPrice: R$ 219,90
 description:
   [
     "Altura: 217cm",
@@ -13,7 +13,8 @@ description:
     "Quantidade de Gavetas: 4 Gavetas",
     "Tipo de Corrediças: Telescópicas",
     "Quantidade de Portas: 8",
-    "Pés Com sapata regulável",
+    "Pés com sapata regulável",
+    "As peças podem ser vendidas separadamente",
   ]
 image: ../products-images/cozinha/cozinha-turquesa.jpg
 category:
