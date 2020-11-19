@@ -9,14 +9,14 @@ description:
     "Altura: 184cm",
     "Largura: 200cm",
     "Profundidade: 34cm",
-    "Peso: 86kg"
+    "Peso: 86kg",
     "Materia Prima: MDF / MDP",
     "Tipo de Pintura: UV",
     "Prazo de Garantia: 3 meses contra defeitos de fabricação",
     "Possui Iluminação: Não",
     "Possui Portas: 2",
     "Ideal para TV até: 65polegadas",
-    "Espaço para TV - (L x A): 169cm x 84cm"
+    "Espaço para TV - (L x A): 169cm x 84cm",
   ]
 image: ../products-images/ofertas/home-suspenso-napoles.jpg
 category:
