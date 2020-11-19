@@ -6,12 +6,14 @@ installments: 10
 installmentsPrice: R$ 120,90
 description:
   [
-    "Altura: 2.18m",
-    "Altura c/ pés: 2.28m",
-    "Largura: 2.06m",
-    "Comprimento / Profundidade: 0.48m",
-    "Materia Prima Portas e Molduras: MDF",
-    "Quantidade de Portas: 6 gavetas",
+    "Altura 2,26m",
+    "Largura 2,05 m",
+    "Profundidade 0,45 m",
+    "Material: Estrutura em MDP 15mm",
+    "6 portas",
+    "4 gavetas Internas",
+    "Corrediças telescópicas.",
+    "Cabideiros metálicos.",
   ]
 image: ../products-images/ofertas/roupeiro-sevilha.jpg
 category:
