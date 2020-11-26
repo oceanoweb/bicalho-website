@@ -91,7 +91,7 @@ export const query = graphql`
         }
       }
     }
-    bannerOffer: file(relativePath: { eq: "banner-offer.png" }) {
+    bannerOffer: file(relativePath: { eq: "banner-offer.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

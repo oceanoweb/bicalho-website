@@ -17,7 +17,7 @@ description:
     "Profundidade: 54cm",
     "Peso: 249kg",
   ]
-image: ../products-images/quarto/roupeiro-sonata-plus-1.jpg
+image: ../products-images/quarto/roupeiro-sonata-plus.jpg
 category:
   - quarto
 subcategory:

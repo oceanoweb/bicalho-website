@@ -15,7 +15,7 @@ description:
     "4 gavetas internas",
     "Portas de correr",
   ]
-image: ../products-images/quarto/roupeiro-tokio-1.jpg
+image: ../products-images/quarto/roupeiro-tokio.jpg
 category:
   - quarto
 subcategory:

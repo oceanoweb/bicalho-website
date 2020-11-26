@@ -29,7 +29,7 @@ description:
     "Escala de brilho	Semi-Brilho",
     "Material dos pés	PVC",
   ]
-image: ../products-images/quarto/roupeiro-master-1.jpg
+image: ../products-images/quarto/roupeiro-master.jpg
 category:
   - quarto
 subcategory:

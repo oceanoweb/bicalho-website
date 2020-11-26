@@ -21,7 +21,7 @@ description:
     "Espaço para TV / Vídeo",
     "Possui Nicho",
   ]
-image: ../products-images/quarto/comoda-new-athos-1.jpg
+image: ../products-images/quarto/comoda-new-athos.jpg
 category:
   - quarto
 subcategory:

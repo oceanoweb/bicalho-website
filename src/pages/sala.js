@@ -48,7 +48,7 @@ export const query = graphql`
         }
       }
     }
-    file(relativePath: { eq: "capa-category/sala.png" }) {
+    file(relativePath: { eq: "capa-category/sala.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

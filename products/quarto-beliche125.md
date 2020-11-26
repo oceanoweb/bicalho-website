@@ -21,7 +21,7 @@ description:
     "Altura do Estrado Superior até o Chão: 130 cm",
     "Revestimento: Pintura UV Fosco",
   ]
-image: ../products-images/quarto/beliche125-1.jpg
+image: ../products-images/quarto/beliche125.jpg
 category:
   - quarto
 subcategory:

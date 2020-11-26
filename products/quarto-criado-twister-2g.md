@@ -12,7 +12,7 @@ description:
     "Produzido em MDF",
     "2 Gavetas com corrediça metálica",
   ]
-image: ../products-images/quarto/criado-twister-2g-1.jpg
+image: ../products-images/quarto/criado-twister-2g.jpg
 category:
   - quarto
 subcategory:

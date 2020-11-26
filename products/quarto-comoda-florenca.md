@@ -22,7 +22,7 @@ description:
     "Tipo de Dobradiça/Corrediça da Porta	Metálica",
     "Tipo de Puxador da Gaveta Externo",
   ]
-image: ../products-images/quarto/comoda-florenca-1.jpg
+image: ../products-images/quarto/comoda-florenca.jpg
 category:
   - quarto
 subcategory:

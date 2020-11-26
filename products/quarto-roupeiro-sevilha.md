@@ -13,7 +13,7 @@ description:
     "Materia Prima Portas e Molduras: MDF",
     "Quantidade de Portas: 6 gavetas",
   ]
-image: ../products-images/quarto/roupeiro-sevilha-1.jpg
+image: ../products-images/quarto/roupeiro-sevilha.jpg
 category:
   - quarto
 subcategory:
