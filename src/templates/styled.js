@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 import Img from "gatsby-image"
 import { Whatsapp } from "@styled-icons/icomoon/Whatsapp"
 
@@ -21,10 +22,18 @@ export const ProductWrapper = styled.div`
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
+
+  ${media.lessThan("medium")`
+    flex-direction: column;`}
 `
 
 export const ProductDetailsWrapper = styled.div`
   width: 50%;
+
+  ${media.lessThan("medium")`
+    order: 2;
+    width: 100%;
+  `}
 `
 
 export const ProductDetails = styled.div`
@@ -86,5 +95,11 @@ export const ProductButtonLabel = styled.p`
 
 export const ProducImaageWrapper = styled.div`
   width: 45%;
+
+  ${media.lessThan("medium")`
+    order: 1;
+    width: 100%;
+    padding: 1rem 5rem 2.5rem;
+  `}
 `
 export const ProductImage = styled.img``
