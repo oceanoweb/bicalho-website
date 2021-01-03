@@ -65,6 +65,13 @@ const Footer = () => {
             }
           }
         }
+        brasilcard: file(relativePath: { eq: "payment/brasilcard.png" }) {
+          childImageSharp {
+            fixed(width: 32, height: 32) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     `
   )
@@ -149,6 +156,10 @@ const Footer = () => {
               <S.PaymentImg
                 fixed={data.visa.childImageSharp.fixed}
                 alt="Visa"
+              />
+              <S.PaymentImg
+                fixed={data.brasilcard.childImageSharp.fixed}
+                alt="Brasil Card"
               />
             </S.FooterPayWithCardWrapped>
             <S.FooterPayWithBankWrapped>
