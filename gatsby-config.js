@@ -61,12 +61,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: process.env.GOOGLE_TAGMANAGER_ID,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `mobiliadora-bicalho`,
@@ -78,6 +72,13 @@ module.exports = {
         icon: `src/images/bicalho-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GOOGLE_TAGMANAGER_ID,
+      },
+    },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],
 }
