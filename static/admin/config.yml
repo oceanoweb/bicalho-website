@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: oceanoweb/bicalho-website
+  branch: master
+  site_domain: mobiliadorabicalho.com.br/
+
+media_folder: static/products-images
+public_folder: ../products-images
+
+collections:
+  - name: 'products'
+    label: 'products'
+    folder: 'products'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Price', name: 'price', widget: 'string' }
+      - { label: 'Installments', name: 'installments', widget: 'number', value_type: "int" }
+      - { label: 'Installments Price', name: 'installmentsPrice', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'list' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: "Category", name: "category", widget: "select", options: ["copa", "cozinha", "ofertas", "quarto", "sala"] }
+      - { label: "Sub Category", name: "subcategory", widget: "select", options: ["copa", "cozinha", "ofertas", "quarto", "sala"] }
