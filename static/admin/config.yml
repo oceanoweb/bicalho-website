@@ -2,7 +2,6 @@ backend:
   name: github
   repo: oceanoweb/bicalho-website
   branch: master
-  site_domain: mobiliadorabicalho.com.br/
 
 publish_mode: editorial_workflow
 media_folder: static/products-images
