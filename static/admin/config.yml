@@ -22,5 +22,5 @@ collections:
       - { label: 'Installments Price', name: 'installmentsPrice', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'list' }
       - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: "Category", name: "category", widget: "select", options: ["copa", "cozinha", "ofertas", "quarto", "sala"] }
-      - { label: "Sub Category", name: "subcategory", widget: "select", options: ["copa", "cozinha", "ofertas", "quarto", "sala"] }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Sub Category", name: "subcategory", widget: "string" }
