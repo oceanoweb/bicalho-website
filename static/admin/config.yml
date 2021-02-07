@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: oceanoweb/bicalho-website
+  name: git-gateway
   branch: master
   site_domain: mobiliadorabicalho.com.br/
 
