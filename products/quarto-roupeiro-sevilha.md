@@ -5,14 +5,12 @@ price: R$ 1099,90
 installments: 10
 installmentsPrice: R$ 120,90
 description:
-  [
-    "Altura: 2.18m",
-    "Altura c/ pés: 2.28m",
-    "Largura: 2.06m",
-    "Comprimento / Profundidade: 0.48m",
-    "Materia Prima Portas e Molduras: MDF",
-    "Quantidade de Portas: 6 gavetas",
-  ]
+  - Altura 2.18m
+  - Altura c/ pés 2.28m
+  - Largura 2.06m
+  - Comprimento / Profundidade 0.48m
+  - Materia Prima Portas e Molduras MDF
+  - Quantidade de Portas 6 gavetas
 image: ../products-images/quarto/roupeiro-sevilha.jpg
 category:
   - quarto

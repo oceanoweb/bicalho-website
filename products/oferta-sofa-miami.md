@@ -5,15 +5,13 @@ price: R$ 2299,90
 installments: 10
 installmentsPrice: R$ 252,90
 description:
-  [
-    "3 Lugares",
-    "Revestido Suede Pena",
-    "Estrutura Eucalipto tratado",
-    "Percintas elásticas",
-    "Pés de plástico injetado na cor tabaco",
-    "Assento retrátil 40cm",
-    "Encosto desmontável",
-  ]
+  - 3 Lugares
+  - Revestido Suede Pena
+  - Estrutura Eucalipto tratado
+  - Percintas elásticas
+  - Pés de plástico injetado na cor tabaco
+  - Assento retrátil 40cm
+  - Encosto desmontáve
 image: ../products-images/ofertas/sofa-miami.jpg
 category:
   - ofertas

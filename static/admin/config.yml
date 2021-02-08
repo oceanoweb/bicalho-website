@@ -16,11 +16,12 @@ collections:
       preview: false
     fields:
       - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Price', name: 'price', widget: 'string' }
-      - { label: 'Installments', name: 'installments', widget: 'number', value_type: "int" }
-      - { label: 'Installments Price', name: 'installmentsPrice', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: "Category", name: "category", widget: "list" }
-      - { label: "Sub Category", name: "subcategory", widget: "list" }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Preço', name: 'price', widget: 'string' }
+      - { label: 'Parcelamento', name: 'installments', widget: 'number', value_type: "int" }
+      - { label: 'Preço parcelado', name: 'installmentsPrice', widget: 'string' }
+      - { label: 'Descrição', name: 'description', widget: 'list' }
+      - { label: 'Imagem', name: 'image', widget: 'image' }
+      - { label: "Categoria", name: "category", widget: "list" }
+      - { label: "Sub Categoria", name: "subcategory", widget: "list" }
+      - { label: "Desconto", name: "discount", widget: "string", required: false }
