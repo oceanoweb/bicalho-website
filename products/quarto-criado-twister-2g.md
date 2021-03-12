@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Criado Twister 2g
-price: R$ 179,90
+price: R$ 209,90
 installments: 10
-installmentsPrice: R$ 19,90
+installmentsPrice: R$ 20,99
 description:
   - Altura 55cm
   - Largura 36cm
