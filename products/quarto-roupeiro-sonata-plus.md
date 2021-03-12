@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Roupeiro Sonata Plus
-price: R$ 1699,90
+price: R$ 2.749,90
 installments: 10
-installmentsPrice: R$ 186,90
+installmentsPrice: R$ 274,99
 description:
   - 6 portas
   - Corrediça telescópica
