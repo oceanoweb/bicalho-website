@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Home Suspenso Napoles
-price: R$ 799,90
+price: R$ 919,90
 installments: 10
-installmentsPrice: R$ 87,90
+installmentsPrice: R$ 91,99
 description:
   - Altura 184cm
   - Largura 200cm
