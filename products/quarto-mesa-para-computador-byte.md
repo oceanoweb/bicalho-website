@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Mesa para Computador Byte
-price: R$ 299,90
+price: R$ 359,90
 installments: 10
-installmentsPrice: R$ 32,90
+installmentsPrice: R$ 35,99
 description:
   - Altura 75cm
   - Largura 116cm
