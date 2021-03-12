@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01 00:00:00
 title: Cozinha Turquesa
-price: R$ 1999,90
+price: R$ 2199,90
 installments: 10
 installmentsPrice: R$ 219,90
 description:
