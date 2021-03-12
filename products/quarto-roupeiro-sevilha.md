@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Roupeiro Sevilha
-price: R$ 1099,90
+price: R$ 1629,90
 installments: 10
-installmentsPrice: R$ 120,90
+installmentsPrice: R$ 162,99
 description:
   - Altura 2.18m
   - Altura c/ pés 2.28m
