@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Roupeiro Master
-price: R$ 799,90
+price: R$ 1.199,90
 installments: 10
-installmentsPrice: R$ R$ 87,90
+installmentsPrice: R$  119,99
 description:
   - Material principal	MDF
   - Possui cabideiros 01
