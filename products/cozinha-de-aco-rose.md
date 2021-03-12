@@ -3,7 +3,7 @@ date: 2020-01-01 00:00:00
 title: Cozinha de Aço Rose
 price: R$ 989,90
 installments: 10
-installmentsPrice: R$ 78,99
+installmentsPrice: R$ 98,99
 description:
   - Dimensão cm (AxLxP)
   - Cozinha CompactaRose LinhaRose
