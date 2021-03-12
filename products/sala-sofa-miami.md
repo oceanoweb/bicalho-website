@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Sofá Miami
-price: R$ 2299,90
+price: R$ 3200,00
 installments: 10
-installmentsPrice: R$ 252,90
+installmentsPrice: R$ 320,00
 description:
   - 3 Lugares
   - Revestido Suede Pena
