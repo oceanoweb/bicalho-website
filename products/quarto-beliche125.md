@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Beliche 125
-price: R$ 599,90
+price: PRODUTO INDISPONÍVEL
 installments: 10
-installmentsPrice: R$ 65,90
+installmentsPrice: R$ 00,00
 description:
   - Colchão não acompanha o produto.
   - Altura 153cm
