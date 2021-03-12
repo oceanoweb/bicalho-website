@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Multiuso Asteca
-price: R$ 279,90
+price: R$ 330,00
 installments: 10
-installmentsPrice: R$ 30,90
+installmentsPrice: R$ 33,00
 description:
   - Altura 190cm
   - Largura	63cm
