@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Cômoda Florença
-price: R$ 329,90
+price: R$ 480,00
 installments: 10
-installmentsPrice: R$ 32,90
+installmentsPrice: R$ 48,00
 description:
   - Altura	93cm
   - Largura	97cm
