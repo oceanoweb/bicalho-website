@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01 00:00:00
 title: Cama de Casal Primicia
-price: De R$ 859,90 Por R$ 699,00
+price: R$ 699,00
 installments: 10
 installmentsPrice: R$ 69,90
 description:
