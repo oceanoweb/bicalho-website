@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Cômoda New Athos
-price: R$ 889,90
+price: R$ 729,00
 installments: 10
-installmentsPrice: R$ 88,99
+installmentsPrice: R$ 72,90
 description:
   - Altura 110cm
   - Largura 136cm
