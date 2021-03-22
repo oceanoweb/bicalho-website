@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Cozinha Turquesa
-price: R$ 2199,90
+price: R$ 1999,90
 installments: 10
-installmentsPrice: R$ 219,90
+installmentsPrice: R$ 199,90
 description:
   - Altura 217cm
   - Largura 280cm
