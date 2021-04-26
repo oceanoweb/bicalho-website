@@ -11,7 +11,7 @@ description:
   - "- Espaço para vestidos longos  - Divisão ele-ela  - 100%
     MDF    Dimensões:  Altura: 240 cm  Largura: 274 cm  Profundidade: 54
     cm  Peso: 249 kg"
-image: ../products-images/guarda-roupa-sonata-saleto.jpg
+image: ../products-images/guarda-roupa-sonata-saletoo.jpg
 category:
   - quarto
 subcategory:
