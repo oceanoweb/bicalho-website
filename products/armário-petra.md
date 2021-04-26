@@ -20,7 +20,7 @@ description:
     produto
   - medidas ideias e acabamento fino com matéria prima de alta qualidade
     deixando sua cozinha muito mais elegante e bonita.
-image: ../products-images/armario-petra.jpg
+image: ../products-images/armario-petraa.jpg
 category:
   - cozinha
 subcategory:
