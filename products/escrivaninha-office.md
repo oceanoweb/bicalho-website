@@ -15,7 +15,7 @@ description:
   - possui 136cm de altura x 130cm de largura x 44cm de comprimento
   - pesando 41
   - 6kg. Garantia de 90 dias por defeito de fabricação. Montagem não inclusa.
-image: ../products-images/escrivaninha-office-valdemoveis.jpeg
+image: ../products-images/escr.jpg
 category:
   - quarto
 subcategory:
