@@ -11,7 +11,7 @@ description:
     seus sapatos. pode ser utilizado para compor vários ambientes: quartos"
   - área de serviço
   - escritório dente outras
-image: ../products-images/1690133504_1gg.jpg
+image: ../products-images/mmm.jpg
 category:
   - quarto
 subcategory:
