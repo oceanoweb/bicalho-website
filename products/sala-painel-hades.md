@@ -1,9 +1,9 @@
 ---
 date: 2020-01-01 00:00:00
 title: Painel Hades
-price: R$ 299,90
+price: R$ 259,00
 installments: 10
-installmentsPrice: R$ 29,99
+installmentsPrice: R$ 25,90
 description:
   - Altura 120cm
   - Largura 145cm
