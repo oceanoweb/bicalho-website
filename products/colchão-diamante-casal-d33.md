@@ -15,7 +15,7 @@ description:
     garantia de densidade certificada pelo instituto Nacional de Estudo do
     Repouso (INER).  Pró-Espuma e certificado de acordo com a portaria INMETRO
     nª 79/2011  Medida: ( LxCxA) 138x188x16cm  Densidade: D33."
-image: ../products-images/colchaocasalorthocrin.jpg
+image: ../products-images/ccc.jpg
 category:
   - quarto
 subcategory:
