@@ -4,6 +4,8 @@ title: Rack Painel Firenze
 price: R$ 399,90
 installments: 10
 installmentsPrice: R$ 39,99
+description:
+  - Rack Painel Firenze
 image: ../products-images/aaaa.jpg
 category:
   - sala
