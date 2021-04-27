@@ -1,6 +1,6 @@
 ---
 date: 2021-04-26T13:39:24.411Z
-title: G. Roupa Sonata Salleto
+title: Guarda Roupa Sonata Salleto
 price: R$ 1999,90
 installments: 10
 installmentsPrice: 199,99
@@ -11,7 +11,7 @@ description:
   - "- Espaço para vestidos longos  - Divisão ele-ela  - 100%
     MDF    Dimensões:  Altura: 240 cm  Largura: 274 cm  Profundidade: 54
     cm  Peso: 249 kg"
-image: ../products-images/gg.jpg
+image: ../products-images/guarda-roupa-sonata-salleto.jpg
 category:
   - quarto
 subcategory:
