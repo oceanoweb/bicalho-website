@@ -11,14 +11,15 @@ description:
   - Altura 16 cm.
   - Tecido de alto teor de algodão.
   - Proporcionando suavidade e maciez ao toque.
-  - Espuma certificada pelo Instituto Nacional de Estudos do Repouso (INER) e pelo selo de desempenho do INMETRO que garante sustentação intermediária.
+  - Espuma certificada pelo Instituto Nacional de Estudos do Repouso (INER) e
+    pelo selo de desempenho do INMETRO que garante sustentação intermediária.
   - Certificação Pró-Espuma/Inmetro.
-  - Espuma com qualidade e garantia de densidade certificada pelo instituto Nacional de Estudo do
-    Repouso (INER).
+  - Espuma com qualidade e garantia de densidade certificada pelo instituto
+    Nacional de Estudo do Repouso (INER).
   - Pró-Espuma e certificado de acordo com a portaria INMETRO nª 79/2011
   - Medida( LxCxA) 138x188x16cm
   - Densidade D33.
-image: ../products-images/colchaocasalorthocrin.jpg
+image: ../products-images/colchao-d33.jpg
 category:
   - quarto
 subcategory:
